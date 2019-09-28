@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8">
+        <title>JsInterface</title>
+         <script type="text/javascript">
+            let trigger = () => {
+                    android(document.querySelector(".yourMessage").value);
+            }
+        </script>
+        <style type="text/css">
+            *{
+                font-size: 2vw;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100vh;
+            }
+            </style>
+    </head>
+    <body>
+
+        <div>
+            <input type="text" class="yourMessage" placeholder="Text here">
+            <button type="button" name="button" onclick="trigger()">Click me</button>
+        </div>
+
+    </body>
+</html>

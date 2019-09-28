@@ -40,6 +40,7 @@ app/build/
 app/proguard-rules.pro
 app/src/androidTest/
 app/src/main/res/
+!app/src/main/res/layout/activity_main.xml
 app/src/test/
 build.gradle
 gradle.properties
