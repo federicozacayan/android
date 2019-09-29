@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private JsInterface jsInterface = new JsInterface(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @JavascriptInterface
-        public void runToast(String msg) {
+        public void lunchToast(String msg) {
             Toast.makeText(mContext, msg, Toast.LENGTH_LONG).show();
         }
     }
